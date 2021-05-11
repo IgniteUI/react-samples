@@ -25,8 +25,9 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
-/samples/**/.vscode
-/samples/**/package-lock.json
+
+**/.vscode
+**/package-lock.json
 /public/code-viewer/**
 
 # testing
