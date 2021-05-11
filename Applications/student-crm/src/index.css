@@ -1,0 +1,32 @@
+#root, html, body, main {
+  background: transparent;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap; 
+  height: 100%;
+  width: 100%;
+}
+
+.dockManagerPane {
+  padding: 0.5rem;
+  height: calc(100% - 1rem);
+  width: calc(100% - 1rem);
+  display: flex;
+  flex-direction: column;
+}
